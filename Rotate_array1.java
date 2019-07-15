@@ -1,5 +1,5 @@
 import java.util.*;
-class Rotate_array1 { 
+public class Rotate_array1 { 
 	public static int[] rotate(int arr[], int d, int n) 
 	{ 
 		for (int i=0;i<d;i++)
