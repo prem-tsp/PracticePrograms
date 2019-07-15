@@ -13,10 +13,17 @@ class IndexNumber
 				j++;
 			}
 		}
-		for(int i=0 ; i<j ; i++)
+		if(j==0)
+			System.out.print("-1");
+		else
 		{
-			System.out.print(ans[i]+" ");
+			for(int i=0 ; i<j ; i++)
+			{
+				System.out.print(ans[i]+" ");
+			}
 		}
+		
+		
 	}
 	public static void main(String[] args)
 	{
