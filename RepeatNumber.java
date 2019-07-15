@@ -27,7 +27,7 @@ public class RepeatNumber
 		}
 		if(!num(arr,n))
 		{
-			System.out.print("Unique");	
+			System.out.print("unique");	
 		}
 	}
 }
