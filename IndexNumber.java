@@ -1,5 +1,5 @@
 import java.util.*;
-class IndexNumber
+public class IndexNumber
 {
 	public static void num(int arr[],int n)
 	{
