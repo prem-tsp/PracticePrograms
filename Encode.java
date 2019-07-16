@@ -7,7 +7,7 @@ public class Encode
 		Scanner in = new Scanner(System.in);
 		String s = in.nextLine();
 		int n = s.length();
-		String encode = "abcdefghijklmnopqrstuvwxyzabc";
+		String encode = "ABCDEFGHIJKLMNOPQRSTUVWXYZABC";
 		String ans = "";
 		int k=0,j=0;
 		while(k<n)
