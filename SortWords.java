@@ -1,4 +1,5 @@
 import java.util.*;
+import java.lang.*;
 public class SortWords
 {
 	public static void main(String[] args)
@@ -13,11 +14,12 @@ public class SortWords
 		//String ans[] = new String[n]; 
 		Arrays.sort(str);
 		sort(str,n);
-		System.out.print(Arrays.toString(str));
-		/*for(int i=0 ; i<n ; i++)
+		//String a = Arrays.toString(str);
+		//String ans[] = a.split(" ");
+		for(int i=0 ; i<n ; i++)
 		{
 			System.out.print(str[i]+" ");
-		}*/
+		}
 			
 	}
 	public static String[] sort(String[] str, int n)
