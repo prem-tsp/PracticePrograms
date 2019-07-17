@@ -1,5 +1,5 @@
 import java.util.*;
-class IslandProblem
+public class IslandProblem
 {
 	public static void main(String[] args)
 	{
