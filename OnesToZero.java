@@ -46,12 +46,18 @@ public class OnesToZero
 					
 				}
 			}
-		}
+		}	
+		
 		for(int i=0 ; i<n ; i++)
 		{
 			for(int j=0 ; j<m ; j++)
-			{
-				System.out.print(arr[i][j]+" ");
+			{	
+				if(j==m-1)
+				{
+					System.out.print(arr[i][j]);
+				}
+				else
+					System.out.print(arr[i][j]+" ");
 			}
 			System.out.println("");
 		}
