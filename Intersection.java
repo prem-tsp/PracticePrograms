@@ -20,16 +20,7 @@ public class Intersection
 		{
 			ans[i] = arr[0][i];
 		}
-		/*for(int j=0 ; j<k ; j++)
-		{
-			for(int i=0 ; i<n ; i++)
-			{
-				if(ans[j] != arr[i][j])
-				{
-					ans[j]=-1;	
-				}
-			}
-		}*/
+		
 		while(l<k)
 		{
 			for(int i=1 ; i<n ; i++)
