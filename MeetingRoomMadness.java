@@ -5,9 +5,9 @@ public class MeetingRoomMadness
 	{
 		int temp_start=start[0],temp_stop=stop[0],count=1;
 		
-		for(int i=0 ; i<n ; i++)
+		for(int i=1 ; i<n ; i++)
 		{	
-			if(start[i] > temp_start && temp_stop > start[i])
+			if(start[i] > temp_start && temp_stop <= start[i])
 			{
 				temp_start = start[i];
 				temp_stop = stop[i];
