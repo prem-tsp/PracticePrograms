@@ -15,7 +15,10 @@ public class Alternating_ab_count
 			if(max_count<count)
 				max_count = count;
 		}
-		return max_count;		
+		if(max_count == 1)
+			return 0;
+		else
+			return max_count;		
 	}
 	public static void main(String[] args)
 	{
