@@ -16,13 +16,8 @@ public class NonRepeating
 		for(int i=0 ; i<n ; i++)
 		{
 			map[inp.charAt(i)]++;
+			if(map[inp.charAt(i)]==1)
+				System.out.print(inp.charAt(i));
 		}
-		for(int i=0 ; i<256 ; i++)
-		{
-			if(map[i]>0)
-				System.out.printf("%c",i);
-				
-		}
-		
 	}
 }
