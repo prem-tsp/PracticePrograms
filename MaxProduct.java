@@ -29,6 +29,6 @@ public class MaxProduct
 		for(int i=0 ; i<n ; i++)
 			arr[i] = in.nextInt();
 		int ans = product(arr,n);
-		System.out.print(ans);
+		System.out.print(ans+" ");
 	}
 }
