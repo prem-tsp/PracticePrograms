@@ -27,6 +27,6 @@ public class MeetingRoomMadness
 		for(int i=0 ; i<n ; i++)
 			stop[i] = in.nextInt();
 		int ans = calculate(n,start,stop);
-		System.out.print(ans);
+		System.out.print(ans+" ");
 	}
 }
