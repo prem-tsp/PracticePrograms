@@ -1,5 +1,5 @@
 import java.util.*;
-class Product_of_num{
+public class Product_of_num{
 	public static void product(int arr[],int n)
 	{
 		int temp=1;
