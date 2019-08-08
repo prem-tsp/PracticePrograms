@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-class MinDistance
+public class MinDistance
 {
 	public static int minDist(int arr[],int u,int v,int n)
 	{
