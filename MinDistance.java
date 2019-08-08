@@ -4,7 +4,7 @@ public class MinDistance
 {
 	public static int minDist(int arr[],int u,int v,int n)
 	{
-		int ans = 1,mini = Integer.MAX_VALUE,min1 = Integer.MAX_VALUE,ans1 = 1;
+		int ans = 0,mini = Integer.MAX_VALUE,min1 = Integer.MAX_VALUE,ans1 = 0,count = 0,count1 =0;
 		for(int i = 0;i < n; i++)
 		{
 			if(arr[i] == u)
@@ -14,7 +14,11 @@ public class MinDistance
 				{
 					if(arr[j] != v)
 						ans++;
-					else break;
+					else 
+					{		
+						count++;
+						break;
+					}
 				}
 				if(ans < mini)
 				{
@@ -33,7 +37,11 @@ public class MinDistance
 				{
 					if(arr[j] != u)
 						ans1++;
-					else break;
+					else 
+					{	
+						count1++;
+						break;
+					}
 				}
 				if(ans1 < min1)
 				{
@@ -41,13 +49,13 @@ public class MinDistance
 				}
 			}
 		}
-		if(mini > 1 && min1 > 1)
-		{
-		return Math.min(mini,min1);
-		}
-		else if(mini > 1 && min1 == 1)
+	
+
+		if(count > 0 && count1 > 0)
+			return Math.min(mini,min1);
+		else if(count > 0 && count1 == 0)
 			return mini;
-		else if(mini == 1 && min1 > 1)
+		else if(count == 0 && count1 > 0)
 			return min1;
 		else
 			return Math.min(mini,min1);
